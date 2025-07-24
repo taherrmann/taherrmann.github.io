@@ -2,8 +2,9 @@
   "title": "Postdoctoral Researcher | Slavic Linguistics",
   "menu": {
     "home": "Home",
-    "cv": "CV",
     "publications": "Publications",
+    "presentations" : "Presentations",
+    "cv": "CV",
     "teaching": "Teaching",
     "contact": "Contact"
   },
