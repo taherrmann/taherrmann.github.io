@@ -1,6 +1,5 @@
 {
-  "name": "Dr. Max Mustermann",
-  "title": "Postdoc | Sprachwissenschaft",
+  "title": "Postdoc | Slavistische Sprachwissenschaft",
   "menu": {
     "home": "Home",
     "cv": "CV",
@@ -17,9 +16,10 @@
     "text": "Lebenslauf in Kurzform oder als Download-Link."
   },
   "publications": {
-    "heading": "Publikationen",
-    "item1": "Artikel 1, Zeitschrift, Jahr",
-    "item2": "Artikel 2, Konferenz, Jahr"
+    "heading": "Publikationen"
+  },
+    "presentations": {
+    "heading": "Präsentationen"
   },
   "teaching": {
     "heading": "Lehre",

@@ -1,6 +1,5 @@
 {
-  "name": "Dr. Max Mustermann",
-  "title": "Postdoc | Linguistics",
+  "title": "Postdoctoral Researcher | Slavic Linguistics",
   "menu": {
     "home": "Home",
     "cv": "CV",
@@ -17,9 +16,10 @@
     "text": "Short-form CV or downloadable version."
   },
   "publications": {
-    "heading": "Publications",
-    "item1": "Article 1, Journal, Year",
-    "item2": "Article 2, Conference, Year"
+    "heading": "Publications"
+  },
+    "presentations": {
+    "heading": "Presentations"
   },
   "teaching": {
     "heading": "Teaching",
