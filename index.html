@@ -1,7 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="name">Dr. Max Mustermann</title>
+  <link rel="stylesheet" href="styles.css">
+    <link rel="en.json">
+    <link rel="de.json">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+    
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header>
+    <img src="profilbild.jpg" alt="Profilbild">
+    <h1 data-i18n="name"></h1>
+    <p data-i18n="title"></p>
+    <div class="language-toggle">
+      <button onclick="setLanguage('de')">DE</button> |
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
+  </header>
+
+  <nav>
+    <button class="nav-button active" onclick="showSection('home')" data-i18n="menu.home"></button>
+    <button class="nav-button" onclick="showSection('cv')" data-i18n="menu.cv"></button>
+    <button class="nav-button" onclick="showSection('publications')" data-i18n="menu.publications"></button>
+    <button class="nav-button" onclick="showSection('teaching')" data-i18n="menu.teaching"></button>
+    <button class="nav-button" onclick="showSection('contact')" data-i18n="menu.contact"></button>
+  </nav>
+
+  <main>
+    <section id="home" class="section active">
+      <h2 data-i18n="home.heading"></h2>
+      <p data-i18n="home.text"></p>
+    </section>
+
+    <section id="cv" class="section">
+      <h2 data-i18n="cv.heading"></h2>
+      <p data-i18n="cv.text"></p>
+    </section>
+
+    <section id="publications" class="section">
+      <h2 data-i18n="publications.heading"></h2>
+      <ul>
+        <li data-i18n="publications.item1"></li>
+        <li data-i18n="publications.item2"></li>
+      </ul>
+    </section>
+
+    <section id="teaching" class="section">
+      <h2 data-i18n="teaching.heading"></h2>
+      <p data-i18n="teaching.text"></p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 data-i18n="contact.heading"></h2>
+      <p data-i18n="contact.email"></p>
+      <p data-i18n="contact.phone"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p data-i18n="footer.contact"></p>
+    <p>
+      <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" title="ORCID"><i class="fab fa-orcid"></i></a>
+      <a href="#" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+    </p>
+  </footer>
+
+  <script>
+    let translations = {};
+    let currentLang = 'de';
+
+    function setLanguage(lang) {
+      fetch(`${lang}.json`)
+        .then(res => res.json())
+        .then(data => {
+          translations = data;
+          currentLang = lang;
+          applyTranslations();
+        });
+    }
+
+    function applyTranslations() {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        const translation = key.split('.').reduce((o, i) => o ? o[i] : null, translations);
+        if (translation) el.textContent = translation;
+      });
+    }
+
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      document.querySelectorAll('.nav-button').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => setLanguage('de'));
+  </script>
 </body>
 </html>

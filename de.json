@@ -1,0 +1,36 @@
+{
+  "name": "Dr. Max Mustermann",
+  "title": "Postdoc | Sprachwissenschaft",
+  "menu": {
+    "home": "Home",
+    "cv": "CV",
+    "publications": "Publikationen",
+    "teaching": "Lehre",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "heading": "Über mich",
+    "text": "Kurzbeschreibung Ihrer Forschungsschwerpunkte, Interessen, aktueller Position etc."
+  },
+  "cv": {
+    "heading": "CV",
+    "text": "Lebenslauf in Kurzform oder als Download-Link."
+  },
+  "publications": {
+    "heading": "Publikationen",
+    "item1": "Artikel 1, Zeitschrift, Jahr",
+    "item2": "Artikel 2, Konferenz, Jahr"
+  },
+  "teaching": {
+    "heading": "Lehre",
+    "text": "Informationen zu Ihren Lehrveranstaltungen, ggf. Links zu Materialien."
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "email": "Email: max.mustermann@uni-koeln.de",
+    "phone": "Telefon: +49 221 123456"
+  },
+  "footer": {
+    "contact": "Email: max.mustermann@uni-koeln.de | Telefon: +49 221 123456"
+  }
+}

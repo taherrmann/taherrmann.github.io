@@ -1,0 +1,36 @@
+{
+  "name": "Dr. Max Mustermann",
+  "title": "Postdoc | Linguistics",
+  "menu": {
+    "home": "Home",
+    "cv": "CV",
+    "publications": "Publications",
+    "teaching": "Teaching",
+    "contact": "Contact"
+  },
+  "home": {
+    "heading": "About Me",
+    "text": "Brief description of research interests, current position, and academic background."
+  },
+  "cv": {
+    "heading": "CV",
+    "text": "Short-form CV or downloadable version."
+  },
+  "publications": {
+    "heading": "Publications",
+    "item1": "Article 1, Journal, Year",
+    "item2": "Article 2, Conference, Year"
+  },
+  "teaching": {
+    "heading": "Teaching",
+    "text": "Information about courses taught, links to materials if available."
+  },
+  "contact": {
+    "heading": "Contact",
+    "email": "Email: max.mustermann@uni-koeln.de",
+    "phone": "Phone: +49 221 123456"
+  },
+  "footer": {
+    "contact": "Email: max.mustermann@uni-koeln.de | Phone: +49 221 123456"
+  }
+}
