@@ -20,21 +20,34 @@
   },
   "cv": {
     "heading": "Lebenslauf",
-    "heading1": "Beruflicher Werdegang",
-    "heading2": "Akademische Ausbildung",
-    "entry1": {
+    "headingA": "Beruflicher Werdegang",
+    "entrya3": {
+      "date": "seit",
+      "text": "Wissenschaftlicher Mitarbeiter im Kernprofilbereich"
+    },
+    "entrya2": {
+      "date": "seit 04/2019",
+      "text": "Wissenschaftlicher Mitarbeiter (50%) für Slavische Sprachwissenschaft",
+        "link": "Slavisches Institut, Universität zu Köln"
+    },
+      "entrya1": {
+      "date": "seit 04/2019",
+      "text": "Wissenschaftlicher Mitarbeiter als Koordinator des"
+    }, 
+    "headingB": "Akademische Ausbildung",
+    "entryb4": {
         "date": "04/2019–12/2023",
         "text": "Promotion im Fach Slavistik, Universität zu Köln.<br>Dissertation: <em>Nonbinary Linguistic Practices in Russian and Czech</em>."
     },
-    "entry2": {
+    "entryb3": {
       "date": "10/2015–11/2018",
       "text": "Master of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
     },
-    "entry3": {
+    "entryb2": {
       "date": "02/2012–02/2013",
       "text": "ERASMUS, Karlsuniversität Prag, Tschechien"
     },
-      "entry4": {
+      "entryb1": {
       "date": "10/2010–09/2015",
       "text": "Bachelor of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
     }
