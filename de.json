@@ -22,8 +22,10 @@
     "heading": "Lebenslauf",
     "heading1": "Beruflicher Werdegang",
     "heading2": "Akademische Ausbildung",
-    "entry1_date": "04/2019–12/2023",
-    "entry1_text": "Promotion im Fach Slavistik, Universität zu Köln.<br>Dissertation: <em>Nonbinary Linguistic Practices in Russian and Czech</em>.",
+    "entry1": {
+        "date": "04/2019–12/2023",
+        "text": "Promotion im Fach Slavistik, Universität zu Köln.<br>Dissertation: <em>Nonbinary Linguistic Practices in Russian and Czech</em>."
+    },
     "entry2": {
       "date": "10/2015–11/2018",
       "text": "Master of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
@@ -42,8 +44,6 @@
     "text": "Informationen zu Ihren Lehrveranstaltungen, ggf. Links zu Materialien."
   },
   "miscellaneous": {
-    "miscellaneous": "Verschiedenes",
-    "email": "Email: max.mustermann@uni-koeln.de",
-    "phone": "Telefon: +49 221 123456"
+    "miscellaneous": "Verschiedenes"
   }
 }
