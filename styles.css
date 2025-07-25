@@ -74,6 +74,33 @@ footer a {
   text-decoration: none;
   font-size: 1.2rem;
 }
+
+/* CV STYLING */
+.cv-entry {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.cv-date {
+  width: 120px;
+  font-weight: bold;
+  flex-shrink: 0;
+  color: #2e4632; /* leicht angepasst ans Grün */
+}
+.cv-text {
+  flex: 1;
+}
+@media (max-width: 600px) {
+  .cv-entry {
+    flex-direction: column;
+  }
+  .cv-date {
+    width: auto;
+  }
+}
+/* // CV STYLING */
+
 @media (max-width: 600px) {
   body {
     font-size: 1rem;
