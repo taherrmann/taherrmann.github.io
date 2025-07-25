@@ -6,7 +6,7 @@
     "presentations" : "Präsentationen",
     "cv": "CV",
     "teaching": "Lehre",
-    "miscellaneous": "Verschiedenes"
+    "misc": "Verschiedenes"
   },
   "home": {
     "heading": "Über mich",
@@ -19,8 +19,8 @@
     "heading": "Präsentationen"
   },
   "cv": {
-    "heading": "Lebenslauf",
-    "headingA": "Beruflicher Werdegang",
+    "heading": "Curriculum Vitae",
+    "headingA": "Akademischer Werdegang",
     "entrya3": {
       "date": "seit",
       "text": "Wissenschaftlicher Mitarbeiter im Kernprofilbereich"
@@ -35,9 +35,11 @@
       "text": "Wissenschaftlicher Mitarbeiter als Koordinator des"
     }, 
     "headingB": "Akademische Ausbildung",
-    "entryb4": {
+ "entryb4": {
         "date": "04/2019–12/2023",
-        "text": "Promotion im Fach Slavistik, Universität zu Köln.<br>Dissertation: <em>Nonbinary Linguistic Practices in Russian and Czech</em>."
+        "text1": "Promotion im Fach Slavistik, Universität zu Köln",
+        "text2": "Dissertation",
+        "text3": "Doktorvater"
     },
     "entryb3": {
       "date": "10/2015–11/2018",
@@ -95,7 +97,11 @@
         "course": "Einführungsseminar: Morphosyntax der slavischen Sprachen"
     }
   },
-  "miscellaneous": {
-    "miscellaneous": "Verschiedenes"
+  "misc": {
+    "misc": "Verschiedenes",
+    "conference": {
+      "orga": "Organisator",
+      "coorga": "Co-Organisator"
+    }
   }
 }
