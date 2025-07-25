@@ -41,7 +41,10 @@
   },
   "teaching": {
     "heading": "Lehre",
-    "text": "Informationen zu Ihren Lehrveranstaltungen, ggf. Links zu Materialien."
+    "entry1": {
+        "semester": "SoSe 21",
+        "course": "Einführungsseminar: Morphosyntax der slavischen Sprachen"
+    },
   },
   "miscellaneous": {
     "miscellaneous": "Verschiedenes"
