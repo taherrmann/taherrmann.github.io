@@ -2,36 +2,51 @@
   "title": "Postdoc | Slavistische Sprachwissenschaft",
   "menu": {
     "home": "Home",
+    "publications": "Publikationen",
     "presentations" : "Präsentationen",
     "cv": "CV",
-    "publications": "Publikationen",
     "teaching": "Lehre",
-    "contact": "Kontakt"
+    "miscellaneous": "Verschiedenes"
   },
   "home": {
     "heading": "Über mich",
     "text": "Kurzbeschreibung Ihrer Forschungsschwerpunkte, Interessen, aktueller Position etc."
   },
-  "cv": {
-    "heading": "CV",
-    "text": "Lebenslauf in Kurzform oder als Download-Link."
-  },
   "publications": {
     "heading": "Publikationen"
-  },
-    "presentations": {
+  },  
+  "presentations": {
     "heading": "Präsentationen"
+  },
+  "cv": {
+    "heading": "Lebenslauf",
+    "heading1": "Beruflicher Werdegang",
+    "heading2": "Akademische Ausbildung",
+
+    "entry1": {
+      "date": "04/2019–12/2023",
+      "text": "Promotion im Fach Slavistik, Universität zu Köln.<br>Dissertation: <em>Nonbinary Linguistic Practices in Russian and Czech</em>."
+    },
+    "entry2": {
+      "date": "10/2015–11/2018",
+      "text": "Master of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
+    },
+    "entry3": {
+      "date": "02/2012–02/2013",
+      "text": "ERASMUS, Karlsuniversität Prag, Tschechien"
+    },
+      "entry4": {
+      "date": "10/2010–09/2015",
+      "text": "Bachelor of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
+    }
   },
   "teaching": {
     "heading": "Lehre",
     "text": "Informationen zu Ihren Lehrveranstaltungen, ggf. Links zu Materialien."
   },
-  "contact": {
-    "heading": "Kontakt",
+  "miscellaneous": {
+    "miscellaneous": "Verschiedenes",
     "email": "Email: max.mustermann@uni-koeln.de",
     "phone": "Telefon: +49 221 123456"
-  },
-  "footer": {
-    "contact": "Email: max.mustermann@uni-koeln.de | Telefon: +49 221 123456"
   }
 }
