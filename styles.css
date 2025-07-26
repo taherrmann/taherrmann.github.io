@@ -30,31 +30,90 @@ header img {
 .language-toggle {
   margin-top: 1rem;
 }
-nav {
-    background-color: #e5e5e5;
-    /*padding: 0.5rem; /* */
-    text-align: center;
-    /*padding-bottom: 0.5rem; /* TOBI */
-    /* margin-bottom: 2.5rem; /* nicht gewünschter Effekt*/
+
+/* Sticky navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #e5e5e5;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-nav button {
-    color: #2c5c47;
-    background: none;
-    border: none;
-    /*padding: 0.5rem 1rem; /* */
-    padding: 1rem; /* TOBI */
-    margin: 0rem 0.5rem; /* */
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+
+/* Container to manage layout */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
 }
-nav button:hover {
+
+/* Hide toggle icon by default (desktop only) */
+.nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #2c5c47;
+}
+
+/* Desktop nav */
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-button {
+  color: #2c5c47;
+  background: none;
+  border: none;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
   background-color: #ccc;
 }
-nav button.active {
-    background-color: #2c5c47;
-    color: #FFFFFF;
+
+.nav-button.active {
+  background-color: #2c5c47;
+  color: #FFFFFF;
 }
+
+/* --------------------------- */
+/* Mobile layout for < 768px   */
+/* --------------------------- */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e5e5e5;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-button {
+    margin: 0;
+    padding: 1em;
+    border-top: 1px solid #ccc;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+
 main {
   flex: 1;
   max-width: 800px;
@@ -111,7 +170,7 @@ footer a {
 }
 
 /* CV, TEACHING STYLING */
-.cv-entry, .teaching-entry, .row {
+.cv-entry, .teaching-entry, {
     display: flex;
     flex-direction: row;
     gap: 0rem 1rem; /* row-gap column-gap*/
@@ -132,14 +191,7 @@ footer a {
 }
 
 /* contact details in footer */
-.contactrowL {
-    flex: 1;
-    text-align: right;
-}
-.contactrowR {
-    flex: 1;
-    text-align: left;
-}
+
 
 @media (max-width: 600px) {
     .cv-entry {
@@ -147,9 +199,6 @@ footer a {
     }
     .cv-date {
         width: auto;
-    }
-    .contactrowL, .contactrowR {
-    text-align: center;
     }
 }
 /* // CV STYLING */
