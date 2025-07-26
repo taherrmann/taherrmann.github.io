@@ -23,31 +23,34 @@
 
 <!-- Sticky Navbar -->
 <nav>
-  <button class="nav-button active" onclick="showSection('home')">
+  <button class="nav-button active" data-target="home">
     <i class="fas fa-home"></i>
     <span class="nav-label" data-i18n="menu.home"></span>
   </button>
-  <button class="nav-button" onclick="showSection('publications')">
+  <button class="nav-button" data-target="publications">
     <i class="fas fa-book"></i>
     <span class="nav-label" data-i18n="menu.publications"></span>
   </button>
-  <button class="nav-button" onclick="showSection('presentations')">
+  <button class="nav-button" data-target="presentations">
     <i class="fas fa-chalkboard-teacher"></i>
     <span class="nav-label" data-i18n="menu.presentations"></span>
   </button>
-  <button class="nav-button" onclick="showSection('cv')">
+  <button class="nav-button" data-target="cv">
     <i class="fas fa-id-card"></i>
     <span class="nav-label" data-i18n="menu.cv"></span>
   </button>
-  <button class="nav-button" onclick="showSection('teaching')">
+  <button class="nav-button" data-target="teaching">
     <i class="fas fa-graduation-cap"></i>
     <span class="nav-label" data-i18n="menu.teaching"></span>
   </button>
-  <button class="nav-button" onclick="showSection('misc')">
+  <button class="nav-button" data-target="misc">
     <i class="fas fa-ellipsis-h"></i>
     <span class="nav-label" data-i18n="menu.misc"></span>
   </button>
 </nav>
+
+    
+
 
 
 
@@ -252,37 +255,52 @@
     </p>
     </footer>
 
-  <script>
-    let translations = {};
-    let currentLang = 'de';
+<script>
+  let translations = {};
+  let currentLang = 'de';
 
-    function setLanguage(lang) {
-      fetch(`${lang}.json`)
-        .then(res => res.json())
-        .then(data => {
-          translations = data;
-          currentLang = lang;
-          applyTranslations();
-        });
-    }
-
-    function applyTranslations() {
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        const translation = key.split('.').reduce((o, i) => o ? o[i] : null, translations);
-        if (translation) el.textContent = translation;
+  function setLanguage(lang) {
+    fetch(`${lang}.json`)
+      .then(res => res.json())
+      .then(data => {
+        translations = data;
+        currentLang = lang;
+        applyTranslations();
       });
-    }
+  }
 
-    function showSection(id) {
-      document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
-      document.getElementById(id).classList.add('active');
-      document.querySelectorAll('.nav-button').forEach(btn => btn.classList.remove('active'));
-      event.target.classList.add('active');
-    }
+  function applyTranslations() {
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      const translation = key.split('.').reduce((o, i) => o ? o[i] : null, translations);
+      if (translation) el.textContent = translation;
+    });
+  }
 
-    document.addEventListener('DOMContentLoaded', () => setLanguage('de'));
-  </script>
+  document.addEventListener('DOMContentLoaded', () => {
+    setLanguage('de');
+
+    const navButtons = document.querySelectorAll('.nav-button');
+
+    navButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const targetId = button.getAttribute('data-target');
+
+        // Show target section
+        document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+          targetSection.classList.add('active');
+        }
+
+        // Update active nav button
+        navButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+      });
+    });
+  });
+</script>
+
 
 
 </body>
