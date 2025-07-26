@@ -21,14 +21,22 @@
     </div>
   </header>
 
-  <nav>
-    <button class="nav-button active" onclick="showSection('home')" data-i18n="menu.home"></button>
-    <button class="nav-button" onclick="showSection('publications')" data-i18n="menu.publications"></button>
-    <button class="nav-button" onclick="showSection('presentations')" data-i18n="menu.presentations"></button> <!-- -->
-    <button class="nav-button" onclick="showSection('cv')" data-i18n="menu.cv"></button>
-    <button class="nav-button" onclick="showSection('teaching')" data-i18n="menu.teaching"></button>
-    <button class="nav-button" onclick="showSection('misc')" data-i18n="menu.misc"></button>
-  </nav>
+<!-- Sticky Navbar -->
+<nav class="navbar">
+  <div class="navbar-container">
+    <span class="nav-toggle" onclick="toggleNav()">☰</span>
+
+    <div class="nav-links" id="nav-links">
+      <button class="nav-button active" onclick="showSection('home')" data-i18n="menu.home"></button>
+      <button class="nav-button" onclick="showSection('publications')" data-i18n="menu.publications"></button>
+      <button class="nav-button" onclick="showSection('presentations')" data-i18n="menu.presentations"></button>
+      <button class="nav-button" onclick="showSection('cv')" data-i18n="menu.cv"></button>
+      <button class="nav-button" onclick="showSection('teaching')" data-i18n="menu.teaching"></button>
+      <button class="nav-button" onclick="showSection('misc')" data-i18n="menu.misc"></button>
+    </div>
+  </div>
+</nav>
+
 
   <main>
     <section id="home" class="section active">
@@ -222,16 +230,13 @@
   </main>
 
     <footer>
-        <div class="row">
-            <div class="contactrowL"><i class="fa fa-envelope" aria-hidden="true"></i> t.herrmann@uni-koeln.de</div>
-            <div class="contactrowR"><i class="fa fa-phone" aria-hidden="true"></i> +49 221 123456</div>
-        </div>
+      <p><span><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:t.herrmann@uni-koeln.de">t.herrmann@uni-koeln.de</a></span>  <span><i class="fa fa-phone" aria-hidden="true">&nbsp;</i>&nbsp;+49&nbsp;221&nbsp;470&nbsp;89923</span></p>
     <p>
       <a href="https://www.linkedin.com/in/tobias-alexander-herrmann-2b4493299/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       <a href="https://orcid.org/0000-0002-1756-7420" title="ORCID"><i class="fab fa-orcid"></i></a>
       <a href="https://www.researchgate.net/profile/Tobias-Alexander-Herrmann" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
     </p>
-  </footer>
+    </footer>
 
   <script>
     let translations = {};
@@ -264,5 +269,14 @@
 
     document.addEventListener('DOMContentLoaded', () => setLanguage('de'));
   </script>
+    
+    <!-- Mobile Navigation Toggle -->
+    <script>
+  function toggleNav() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show');
+  }
+</script>
+
 </body>
 </html>
