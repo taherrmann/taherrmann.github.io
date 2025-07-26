@@ -23,19 +23,19 @@
 
 <!-- Sticky Navbar -->
 <nav class="navbar">
-  <div class="navbar-container">
-    <span class="nav-toggle" onclick="toggleNav()">☰</span>
-
+  <div class="nav-container">
+    <button class="nav-toggle" id="nav-toggle" onclick="toggleNav()">☰</button>
     <div class="nav-links" id="nav-links">
-      <button class="nav-button active" onclick="showSection('home')" data-i18n="menu.home"></button>
-      <button class="nav-button" onclick="showSection('publications')" data-i18n="menu.publications"></button>
-      <button class="nav-button" onclick="showSection('presentations')" data-i18n="menu.presentations"></button>
-      <button class="nav-button" onclick="showSection('cv')" data-i18n="menu.cv"></button>
-      <button class="nav-button" onclick="showSection('teaching')" data-i18n="menu.teaching"></button>
-      <button class="nav-button" onclick="showSection('misc')" data-i18n="menu.misc"></button>
+      <button class="nav-button active" onclick="handleNavClick('home')" data-i18n="menu.home"></button>
+      <button class="nav-button" onclick="handleNavClick('publications')" data-i18n="menu.publications"></button>
+      <button class="nav-button" onclick="handleNavClick('presentations')" data-i18n="menu.presentations"></button>
+      <button class="nav-button" onclick="handleNavClick('cv')" data-i18n="menu.cv"></button>
+      <button class="nav-button" onclick="handleNavClick('teaching')" data-i18n="menu.teaching"></button>
+      <button class="nav-button" onclick="handleNavClick('misc')" data-i18n="menu.misc"></button>
     </div>
   </div>
 </nav>
+
 
 
   <main>
@@ -271,12 +271,33 @@
   </script>
     
     <!-- Mobile Navigation Toggle -->
-    <script>
+<script>
   function toggleNav() {
     const navLinks = document.getElementById('nav-links');
+    const toggleButton = document.getElementById('nav-toggle');
     navLinks.classList.toggle('show');
+
+    // Optional: Zeige oder verstecke den Toggle-Button bei geöffnetem Menü
+    if (navLinks.classList.contains('show')) {
+      toggleButton.style.display = 'none';
+    } else {
+      toggleButton.style.display = 'block';
+    }
+  }
+
+  function handleNavClick(sectionId) {
+    showSection(sectionId); // ← deine bestehende Funktion
+    const navLinks = document.getElementById('nav-links');
+    const toggleButton = document.getElementById('nav-toggle');
+
+    // Wenn das Menü in mobiler Ansicht offen ist, schließe es
+    if (window.innerWidth <= 768 && navLinks.classList.contains('show')) {
+      navLinks.classList.remove('show');
+      toggleButton.style.display = 'block';
+    }
   }
 </script>
+
 
 </body>
 </html>

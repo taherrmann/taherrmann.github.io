@@ -229,3 +229,11 @@ footer a {
         width: 769px;
     }
 }
+
+/* Verstecke Hamburger-Icon, wenn Menü offen */
+@media (max-width: 768px) {
+  .nav-links.show + #nav-toggle {
+    display: none;
+  }
+}
+
