@@ -126,7 +126,7 @@ footer a {
 }
 
 /* CV, TEACHING STYLING */
-.cv-entry, .teaching-entry, {
+.cv-entry, .teaching-entry {
     display: flex;
     flex-direction: row;
     gap: 0rem 1rem; /* row-gap column-gap*/
@@ -150,10 +150,10 @@ footer a {
 
 
 @media (max-width: 600px) {
-    .cv-entry {
+    .cv-entry, .teaching-entry {
         flex-direction: column;
     }
-    .cv-date {
+    .cv-date, .teaching-semester {
         width: auto;
     }
 }
