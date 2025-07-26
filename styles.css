@@ -61,6 +61,7 @@ nav {
 }
 
 .nav-button i {
+    display: none;
   font-size: 1.2rem;
 }
 
@@ -211,5 +212,6 @@ footer a {
 
   .nav-button i {
     font-size: 1.2rem;
+      display: inline; /* Wichtig, um Icons sichtbar zu machen */
   }
 }
