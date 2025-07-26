@@ -1,50 +1,50 @@
 {
-  "title": "Postdoc | Slavistische Sprachwissenschaft",
-  "menu": {
-    "home": "Home",
-    "publications": "Publikationen",
-    "presentations" : "Präsentationen",
-    "cv": "CV",
-    "teaching": "Lehre",
-    "misc": "Verschiedenes"
-  },
-  "home": {
-    "heading": "Über mich",
-    "text": "Kurzbeschreibung Ihrer Forschungsschwerpunkte, Interessen, aktueller Position etc."
-  },
-  "publications": {
-    "heading": "Publikationen"
-  },  
-  "presentations": {
-    "heading": "Präsentationen"
-  },
-  "cv": {
-    "heading": "Curriculum Vitae",
-    "headingA": "Akademischer Werdegang",
-    "entrya3": {
-      "date": "seit",
-      "text": "Wissenschaftlicher Mitarbeiter im Kernprofilbereich"
+    "title": "Postdoc | Slavistische Sprachwissenschaft",
+    "menu": {
+        "home": "Home",
+        "publications": "Publikationen",
+        "presentations" : "Präsentationen",
+        "cv": "CV",
+        "teaching": "Lehre",
+        "misc": "Verschiedenes"
     },
-    "entrya2": {
-      "date": "seit 04/2019",
-      "text": "Wissenschaftlicher Mitarbeiter (50%) für Slavische Sprachwissenschaft",
-        "link": "Slavisches Institut, Universität zu Köln"
+    "home": {
+        "heading": "Über mich",
+        "text": "Kurzbeschreibung Ihrer Forschungsschwerpunkte, Interessen, aktueller Position etc."
     },
-      "entrya1": {
-      "date": "seit 04/2019",
-      "text": "Wissenschaftlicher Mitarbeiter als Koordinator des"
-    }, 
-    "headingB": "Akademische Ausbildung",
- "entryb4": {
-        "date": "04/2019–12/2023",
-        "text1": "Promotion im Fach Slavistik, Universität zu Köln",
-        "text2": "Dissertation",
-        "text3": "Doktorvater"
+    "publications": {
+        "heading": "Publikationen"
+    },  
+    "presentations": {
+        "heading": "Präsentationen"
     },
-    "entryb3": {
-      "date": "10/2015–11/2018",
-      "text": "Master of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
-    },
+    "cv": {
+        "heading": "Curriculum Vitae",
+        "headingA": "Akademischer Werdegang",
+        "entrya3": {
+            "date": "seit",
+            "text": "Wissenschaftlicher Mitarbeiter im Kernprofilbereich"
+        },
+        "entrya2": {
+            "date": "seit 04/2019",
+            "text": "Wissenschaftlicher Mitarbeiter (50%) für Slavische Sprachwissenschaft",
+            "link": "Slavisches Institut, Universität zu Köln"
+        },
+        "entrya1": {
+            "date": "seit 04/2019",
+            "text": "Wissenschaftlicher Mitarbeiter als Koordinator des"
+        }, 
+        "headingB": "Akademische Ausbildung",
+        "entryb4": {
+            "date": "04/2019–12/2023",
+            "text1": "Promotion im Fach Slavistik, Universität zu Köln",
+            "text2": "Dissertation",
+            "text3": "Doktorvater"
+        },
+        "entryb3": {
+            "date": "10/2015–11/2018",
+            "text": "Master of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
+        },
     "entryb2": {
       "date": "02/2012–02/2013",
       "text": "ERASMUS, Karlsuniversität Prag, Tschechien"
@@ -97,11 +97,12 @@
         "course": "Einführungsseminar: Morphosyntax der slavischen Sprachen"
     }
   },
-  "misc": {
-    "misc": "Verschiedenes",
-    "conference": {
-      "orga": "Organisator",
-      "coorga": "Co-Organisator"
+    "misc": {
+        "heading": "Verschiedenes",
+        "conference": {
+            "heading": "Organisation von Konferenzen & Workshops",
+            "orga": "Organisator",
+            "coorga": "Co-Organisator"
+        }
     }
-  }
 }
