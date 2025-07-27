@@ -110,7 +110,8 @@
             "orga": "Organisator",
             "coorga": "Co-Organisator"
         },
-        "memberships": {
+        "member": {
+            "heading": "Mitgliedschaften",
             "text1": "Hinsichtlich der Sprachwissenschaften bin ich Mitglied im",
             "text2": "sowie assoziiertes Mitglied im",
             "SSLACdesc": "Kernprofilbereich Key Profile Area",
@@ -125,3 +126,4 @@
         }
     }
 }
+
