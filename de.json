@@ -104,7 +104,7 @@
         }
     },
     "misc": {
-        "heading": "Verschiedenes",
+        "heading": "Netzwerk",
         "conference": {
             "heading": "Organisation von Konferenzen & Workshops",
             "orga": "Organisator",
@@ -122,7 +122,8 @@
             "Verband": "Verband der deutschen Slavistik (German Association of Slavists)",
             "text6": "bei den",
             "JuSla": "JungslavistInnen",
-            "text7": "sowie im"
+            "text7": "sowie im",
+            "associated": "assoziiertes Mitglied"
         }
     }
 }
