@@ -1,12 +1,12 @@
 {
-    "title": "Postdoc | Slavistische Sprachwissenschaft",
+    "title": "Postdoc | Slavische Sprachwissenschaft",
     "menu": {
         "home": "Home",
         "publications": "Publikationen",
         "presentations" : "Präsentationen",
         "cv": "CV",
         "teaching": "Lehre",
-        "misc": "Verschiedenes"
+        "network": "Netzwerk"
     },
     "home": {
         "heading": "Über mich",
@@ -103,7 +103,7 @@
             "course": "Einführungsseminar: Morphosyntax der slavischen Sprachen"
         }
     },
-    "misc": {
+    "network": {
         "heading": "Netzwerk",
         "conference": {
             "heading": "Organisation von Konferenzen & Workshops",
