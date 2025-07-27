@@ -10,7 +10,13 @@
     },
     "home": {
         "heading": "Über mich",
-        "text": "Kurzbeschreibung Ihrer Forschungsschwerpunkte, Interessen, aktueller Position etc."
+        "text": {
+            "intro": "Hier Kurzvorstellung",
+            "research": "Forschungsinteressen",
+            "methods": "Verwendete Methoden",
+            "phd": "Kurzinfo zur Diss",
+            "work": "Postdoc am Slavischen Institut, SSLAC, CCLS",
+        }
     },
     "publications": {
         "heading": "Publikationen"
@@ -45,64 +51,77 @@
             "date": "10/2015–11/2018",
             "text": "Master of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
         },
-    "entryb2": {
-      "date": "02/2012–02/2013",
-      "text": "ERASMUS, Karlsuniversität Prag, Tschechien"
+        "entryb2": {
+            "date": "02/2012–02/2013",
+            "text": "ERASMUS, Karlsuniversität Prag, Tschechien"
+        },
+        "entryb1": {
+            "date": "10/2010–09/2015",
+            "text": "Bachelor of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
+        }
     },
-      "entryb1": {
-      "date": "10/2010–09/2015",
-      "text": "Bachelor of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
-    }
-  },
-  "teaching": {
-    "heading": "Lehre",
-    "entry10": {
-        "semester": "WS 2025/26",
-        "course": "Einführungsseminar: Laut und Bedeutung in den slavischen Sprachen"
+    "teaching": {
+        "heading": "Lehre",
+        "entry10": {
+            "semester": "WS 2025/26",
+            "course": "Einführungsseminar: Laut und Bedeutung in den slavischen Sprachen"
+        },
+        "entry9": {
+            "semester": "",
+            "course": "Hauptseminar für BA/MA: Nominale Morphosyntax der slavischen Sprachen"
+        },
+        "entry8": {
+            "semester": "WS 2024/25",
+            "course": "Hauptseminar für BA: Empirische Linguistik: Webexperimente"
+        },
+        "entry7": {
+            "semester": "SoSe 24",
+            "course": "Einführungsseminar: Wort & Satz"
+        },
+        "entry6": {
+            "semester": "WS 2023/24",
+            "course": "Hauptseminar für BA: Slavische Diskurslinguistik"
+        },
+          "entry5": {
+            "semester": "SoSe 23",
+            "course": "Hauptseminar für BA: Slavische Pronomina"
+        },
+        "entry4": {
+            "semester": "WS 2022/23",
+            "course": "Hauptseminar für BA: Slavische Korpuslinguistik"
+        },
+        "entry3": {
+            "semester": "SoSe 22",
+            "course": "Einführungsseminar: Wort & Satz"
+        },
+        "entry2": {
+            "semester": "WS 2021/22",
+            "course": "Proseminar: Slavische Genderlinguistik"
+        },
+        "entry1": {
+            "semester": "SoSe 21",
+            "course": "Einführungsseminar: Morphosyntax der slavischen Sprachen"
+        }
     },
-    "entry9": {
-        "semester": "",
-        "course": "Hauptseminar für BA/MA: Nominale Morphosyntax der slavischen Sprachen"
-    },
-    "entry8": {
-        "semester": "WS 2024/25",
-        "course": "Hauptseminar für BA: Empirische Linguistik: Webexperimente"
-    },
-    "entry7": {
-        "semester": "SoSe 24",
-        "course": "Einführungsseminar: Wort & Satz"
-    },
-    "entry6": {
-        "semester": "WS 2023/24",
-        "course": "Hauptseminar für BA: Slavische Diskurslinguistik"
-    },
-      "entry5": {
-        "semester": "SoSe 23",
-        "course": "Hauptseminar für BA: Slavische Pronomina"
-    },
-    "entry4": {
-        "semester": "WS 2022/23",
-        "course": "Hauptseminar für BA: Slavische Korpuslinguistik"
-    },
-    "entry3": {
-        "semester": "SoSe 22",
-        "course": "Einführungsseminar: Wort & Satz"
-    },
-    "entry2": {
-        "semester": "WS 2021/22",
-        "course": "Proseminar: Slavische Genderlinguistik"
-    },
-    "entry1": {
-        "semester": "SoSe 21",
-        "course": "Einführungsseminar: Morphosyntax der slavischen Sprachen"
-    }
-  },
     "misc": {
         "heading": "Verschiedenes",
         "conference": {
             "heading": "Organisation von Konferenzen & Workshops",
             "orga": "Organisator",
             "coorga": "Co-Organisator"
+        },
+        "memberships": {
+            "text1": "Hinsichtlich der Sprachwissenschaften bin ich Mitglied im",
+            "text2": "sowie assoziiertes Mitglied im",
+            "SSLACdesc": "Kernprofilbereich Key Profile Area",
+            "text3": "und dem",
+            "SFB1252_desc": "Sprachwissenschaftlichen Forschungsverbund",
+            "text4": "an der Universität zu Köln",
+            "text5": "Im Bereich der Slavistik und Osteuropaforschung bin ich Mitglied im",
+            "Verband": "Verband der deutschen Slavistik (German Association of Slavists)",
+            "text6": "bei den",
+            "JuSla": "JungslavistInnen",
+            "text7": "sowie im"
         }
     }
 }
