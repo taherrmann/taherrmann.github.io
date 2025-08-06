@@ -28,17 +28,17 @@
         "heading": "Curriculum Vitae",
         "headingA": "Academic background",
         "entrya3": {
-            "date": "since",
-            "text": "(Doctoral) research fellow in the Key Profile Area"
-        },
-        "entrya2": {
-            "date": "since 04/2019",
+            "date": "since 04/2021",
             "text": "(Doctoral) research fellow (50%) in Slavic Linguistics",
             "link": "Slavic Department, University of Cologne"
         },
+        "entrya2": {
+            "date": "since 01/2021",
+            "text": "(Doctoral) research fellow (50%) in the Key Profile Area"
+        },
         "entrya1": {
-            "date": "since 04/2019",
-            "text": "Doctoral research fellow as coordinator of the"
+            "date": "04/2019–12/2020",
+            "text": "Doctoral research fellow (50%) as coordinator of the"
         }, 
         "headingB": "Education",
         "entryb4": {
