@@ -1,0 +1,130 @@
+{
+    "title": "Postdoctoral Researcher | Slavic Linguistics",
+    "menu": {
+        "home": "Home",
+        "publications": "Publications",
+        "presentations" : "Presentations",
+        "cv": "CV",
+        "teaching": "Teaching",
+        "network": "Networking"
+    },
+    "home": {
+        "heading": "About Me",
+        "text": {
+            "intro": "I am a linguist specializing in Slavic languages, particularly Russian, Czech, and Polish.",
+            "research": "research interests",
+            "methods": "My research integrates a variety of methods, including corpus and computational linguistics as well as experimental techniques.",
+            "phd": "I received my PhD in 2023 from the University of Cologne in the field of Slavic Linguistics, with a focus on identity-driven morphosyntactic variation of Russian and Czech nonbinary speakers.",
+            "work": "I am a research fellow in the Key Profile Area “Skills and Structures in Language and Cognition” (SSLAC) and a research fellow in Slavic Linguistics at the Slavic Department, University of Cologne."
+        }
+    },
+    "publications": {
+        "heading": "Publications"
+    },  
+    "presentations": {
+        "heading": "Presentations"
+    },
+    "cv": {
+        "heading": "Curriculum Vitae",
+        "headingA": "Academic background",
+        "entrya3": {
+            "date": "since 04/2021",
+            "text": "(Doctoral) research fellow (50%) in Slavic Linguistics",
+            "link": "Slavic Department, University of Cologne"
+        },
+        "entrya2": {
+            "date": "since 01/2021",
+            "text": "(Doctoral) research fellow (50%) in the Key Profile Area"
+        },
+        "entrya1": {
+            "date": "04/2019–12/2020",
+            "text": "Doctoral research fellow (50%) as coordinator of the"
+        }, 
+        "headingB": "Education",
+        "entryb4": {
+            "date": "04/2019–12/2023",
+            "text1": "PhD in Slavic Linguistics, University of Cologne",
+            "text2": "Doctoral thesis",
+            "text3": "Supervisor"
+        },
+        "entryb3": {
+            "date": "10/2015–11/2018",
+            "text": "Master of Arts, Central and Eastern European Studies, Social Sciences, University of Cologne"
+        },
+        "entryb2": {
+            "date": "02/2012–02/2013",
+            "text": "ERASMUS, Charles University Prague, Czechia"
+        },
+        "entryb1": {
+            "date": "10/2010–09/2015",
+            "text": "Bachelor of Arts, Central and Eastern European Studies, Social Sciences, University of Cologne"
+        }
+    },
+    "teaching": {
+        "heading": "Teaching",
+        "entry10": {
+            "semester": "WS 2025/26",
+            "course": "Introductory seminar: Laut und Bedeutung in den slavischen Sprachen"
+        },
+        "entry9": {
+            "semester": "",
+            "course": "Advanced seminar for BA/MA: Slavic nominal morphosyntax"
+        },
+        "entry8": {
+            "semester": "WS 2024/25",
+            "course": "Advanced seminar for BA: Empirical linguistics: web experiments"
+        },
+        "entry7": {
+            "semester": "SoSe 24",
+            "course": "Introductory seminar: Wort & Satz"
+        },
+        "entry6": {
+            "semester": "WS 2023/24",
+            "course": "Advanced seminar for BA: Slavic discourse linguistics"
+        },
+          "entry5": {
+            "semester": "SoSe 23",
+            "course": "Advanced seminar for BA: Slavic Pronouns"
+        },
+        "entry4": {
+            "semester": "WS 2022/23",
+            "course": "Advanced seminar for BA: Slavic corpus linguistics"
+        },
+        "entry3": {
+            "semester": "SoSe 22",
+            "course": "Introductory seminar: Wort & Satz"
+        },
+        "entry2": {
+            "semester": "WS 2021/22",
+            "course": "Proseminar: Slavic gender linguistics"
+        },
+        "entry1": {
+            "semester": "SoSe 21",
+            "course": "Introductory seminar: Morphosyntax of the Slavic languages"
+        }
+    },
+    "network": {
+        "heading": "Networking",
+        "conference": {
+            "heading": "Organized conferences & workshops",
+            "orga": "Organizor",
+            "coorga": "Co-organizor"
+        },
+        "member": {
+            "heading": "Memberships",
+            "text1": "Hinsichtlich der Sprachwissenschaften bin ich Mitglied im",
+            "text2": "sowie assoziiertes Mitglied im",
+            "SSLACdesc": "Key Profile Area",
+            "text3": "und dem",
+            "SFB1252_desc": "Sprachwissenschaftlichen Forschungsverbund",
+            "text4": "an der University of Cologne",
+            "text5": "Im Bereich der Slavistik und Osteuropaforschung bin ich Mitglied im",
+            "Verband": "German Association of Slavists",
+            "text6": "bei den",
+            "JuSla": "Association of early-career Slavic linguists",
+            "text7": "sowie im",
+            "associated": "associated member"
+        }
+    }
+}
+

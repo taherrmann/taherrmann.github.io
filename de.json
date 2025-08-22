@@ -1,0 +1,130 @@
+{
+    "title": "Postdoc | Slavische Sprachwissenschaft",
+    "menu": {
+        "home": "Home",
+        "publications": "Publikationen",
+        "presentations" : "Präsentationen",
+        "cv": "CV",
+        "teaching": "Lehre",
+        "network": "Netzwerk"
+    },
+    "home": {
+        "heading": "Über mich",
+        "text": {
+            "intro": "Ich bin Linguist und beschäftige mich mit slavischen Sprachen, insbesondere dem Russischen, Tschechischen und Polnischen.",
+            "research": "Forschungsinteressen",
+            "methods": "Meine Forschung basiert auf verschiedenen Methoden, darunter Korpuslinguistik und Computerlinguistik sowie experimentelle Techniken.",
+            "phd": "Meine Promotion habe ich 2023 an der Universität zu Köln im Fach Slavistik abgeschlossen. Der Schwerpunkt lag auf identitätsbasierter morphosyntaktischen Variationen bei nicht-binären Sprecher:innen des Russischen und Tschechischen.",
+            "work": "Ich bin Wissenschaftlicher Mitarbeiter im Kernprofilbereich “Skills and Structures in Language and Cognition” (SSLAC) sowie am Slavischen Institut an der Universität zu Köln."
+        }
+    },
+    "publications": {
+        "heading": "Publikationen"
+    },  
+    "presentations": {
+        "heading": "Präsentationen"
+    },
+    "cv": {
+        "heading": "Curriculum Vitae",
+        "headingA": "Akademischer Werdegang",
+        "entrya3": {
+            "date": "seit 04/2021",
+            "text": "Wissenschaftlicher Mitarbeiter (50%) für Slavische Sprachwissenschaft",
+            "link": "Slavisches Institut, Universität zu Köln"
+        },
+        "entrya2": {
+            "date": "seit 01/2021",
+            "text": "Wissenschaftlicher Mitarbeiter (50%) im Kernprofilbereich"
+        },
+        "entrya1": {
+            "date": "04/2019–12/2020",
+            "text": "Wissenschaftlicher Mitarbeiter (50%) als Koordinator des"
+        }, 
+        "headingB": "Akademische Ausbildung",
+        "entryb4": {
+            "date": "04/2019–12/2023",
+            "text1": "Promotion im Fach Slavistik, Universität zu Köln",
+            "text2": "Dissertation",
+            "text3": "Doktorvater"
+        },
+        "entryb3": {
+            "date": "10/2015–11/2018",
+            "text": "Master of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
+        },
+        "entryb2": {
+            "date": "02/2012–02/2013",
+            "text": "ERASMUS, Karlsuniversität Prag, Tschechien"
+        },
+        "entryb1": {
+            "date": "10/2010–09/2015",
+            "text": "Bachelor of Arts, Regionalstudien Ost- und Mitteleuropa, Sozialwissenschaften, Universität zu Köln"
+        }
+    },
+    "teaching": {
+        "heading": "Lehre",
+        "entry10": {
+            "semester": "WS 2025/26",
+            "course": "Einführungsseminar: Laut und Bedeutung in den slavischen Sprachen"
+        },
+        "entry9": {
+            "semester": "",
+            "course": "Hauptseminar für BA/MA: Nominale Morphosyntax der slavischen Sprachen"
+        },
+        "entry8": {
+            "semester": "WS 2024/25",
+            "course": "Hauptseminar für BA: Empirische Linguistik: Webexperimente"
+        },
+        "entry7": {
+            "semester": "SoSe 24",
+            "course": "Einführungsseminar: Wort & Satz"
+        },
+        "entry6": {
+            "semester": "WS 2023/24",
+            "course": "Hauptseminar für BA: Slavische Diskurslinguistik"
+        },
+          "entry5": {
+            "semester": "SoSe 23",
+            "course": "Hauptseminar für BA: Slavische Pronomina"
+        },
+        "entry4": {
+            "semester": "WS 2022/23",
+            "course": "Hauptseminar für BA: Slavische Korpuslinguistik"
+        },
+        "entry3": {
+            "semester": "SoSe 22",
+            "course": "Einführungsseminar: Wort & Satz"
+        },
+        "entry2": {
+            "semester": "WS 2021/22",
+            "course": "Proseminar: Slavische Genderlinguistik"
+        },
+        "entry1": {
+            "semester": "SoSe 21",
+            "course": "Einführungsseminar: Morphosyntax der slavischen Sprachen"
+        }
+    },
+    "network": {
+        "heading": "Netzwerk",
+        "conference": {
+            "heading": "Organisation von Konferenzen & Workshops",
+            "orga": "Organisator",
+            "coorga": "Co-Organisator"
+        },
+        "member": {
+            "heading": "Mitgliedschaften",
+            "text1": "Hinsichtlich der Sprachwissenschaften bin ich Mitglied im",
+            "text2": "sowie assoziiertes Mitglied im",
+            "SSLACdesc": "Kernprofilbereich",
+            "text3": "und dem",
+            "SFB1252_desc": "Sprachwissenschaftlichen Forschungsverbund",
+            "text4": "an der Universität zu Köln",
+            "text5": "Im Bereich der Slavistik und Osteuropaforschung bin ich Mitglied im",
+            "Verband": "Verband der deutschen Slavistik",
+            "text6": "bei den",
+            "JuSla": "JungslavistInnen",
+            "text7": "sowie im",
+            "associated": "assoziiertes Mitglied"
+        }
+    }
+}
+
