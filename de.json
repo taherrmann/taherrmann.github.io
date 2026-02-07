@@ -112,7 +112,7 @@
         "corpus": {
             "heading": "Czech multimodal conversation corpus",
             "description1": "Dieses multimodale Korpus ist eine Sammlung von Video- und Sprachaufzeichnungen aus face-to-face Gesprächen zwischen tschechischen Muttersprachlern im Alter von 20 bis 30 Jahren. Die insgesamt 17 einstündigen Gespräche wurden im November 2025 an der Technischen Universität Liberec aufgezeichnet. Die Teilnehmer konnten über jedes beliebige Thema sprechen. Die Daten wurden mit einer HD-Kamera mit Frontalansicht und einem Mikrofon für jeden Sprecher, einer dritten HD-Kamera für eine Seitenansicht und einer jeweils zusätzlichen Frontalansicht des Sprechers mit LiveLink (iPhone) aufgezeichnet.",
-            "description2": "Derzeit werden die Daten bereinigt und aufbereitet, einschließlich automatischer Sprachtranskription, PoS-Tagging, Lemmatisierung und Gestenannotation in ELAN sowie Gesichtssignalen wie Blickrichtung, Augenblinzeln und Augenbrauen auf der Grundlage der LiveLink-Daten.",
+            "description2": "Derzeit werden die Daten bereinigt und aufbereitet, einschließlich automatischer Sprachtranskription, PoS-Tagging, Lemmatisierung und Gestenannotation in ELAN sowie Gesichtssignalen wie Blickrichtung, Augenblinzeln und Augenbrauen auf der Grundlage der LiveLink-Daten."
         },
         "conference": {
             "heading": "Organisation von Konferenzen & Workshops",

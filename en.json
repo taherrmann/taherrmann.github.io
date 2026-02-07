@@ -112,7 +112,7 @@
         "corpus": {
             "heading": "Czech multimodal conversation corpus",
             "description1": "This multimodal corpus is a collection of video and speech recordings of face-to-face dialogues of native Czech speakers aged from 20-30 years old. A total of 17 one-hour conversations were recorded at the University of Liberec in November 2025. The participants were allowed to talk about any topic they wanted. The data were recorded using a frontal view HD camera and a microphone for each speaker, a third HD camera for a side view, and an additional frontal speaker view using LiveLink (iPhone), respectively.",
-            "description2": "Data cleaning and preparation is currently underway, including automatic speech transcription, PoS-tagging, lemmatization and gesture annotation in ELAN, as well as facial signals such as eye gaze, eye blinks and eyebrows based on the LiveLink data.",
+            "description2": "Data cleaning and preparation is currently underway, including automatic speech transcription, PoS-tagging, lemmatization and gesture annotation in ELAN, as well as facial signals such as eye gaze, eye blinks and eyebrows based on the LiveLink data."
         },
         "conference": {
             "heading": "Organized conferences & workshops",
