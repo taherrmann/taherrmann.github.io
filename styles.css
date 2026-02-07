@@ -149,16 +149,23 @@ footer a {
     font-size: 1.2rem;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* PUBLICATIONS STYLE*/
 .pub_references {
-  display: block;
-  list-style-type: none;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 2em;
-  margin-right: 0;
-  padding-left: 0;
-  text-indent: -2em;
+    display: block;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 0;
+    padding-left: 0;
+    text-indent: -2em;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* CV, TEACHING STYLING */
