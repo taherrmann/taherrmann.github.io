@@ -15,7 +15,7 @@
             "research": "research interests",
             "methods": "My research integrates a variety of methods, including corpus and computational linguistics as well as experimental techniques.",
             "phd": "I received my PhD in 2023 from the University of Cologne in the field of Slavic Linguistics, with a focus on identity-driven morphosyntactic variation of Russian and Czech nonbinary speakers.",
-            "work": "I am a research fellow in the Key Profile Area “Skills and Structures in Language and Cognition” (SSLAC) and a research fellow in Slavic Linguistics at the Slavic Department, University of Cologne."
+            "work": "I am a research fellow in Slavic Linguistics at the Slavic Department as well as in the Key Profile Area “Skills and Structures in Language and Cognition” (SSLAC) at the University of Cologne."
         }
     },
     "publications": {
@@ -62,49 +62,58 @@
     },
     "teaching": {
         "heading": "Teaching",
+        "entry11": {
+            "semester": "Summer 2026",
+            "course": "Introduction to language variation and change in the Slavic languages"
+        },
         "entry10": {
-            "semester": "WS 2025/26",
-            "course": "Introductory seminar: Laut und Bedeutung in den slavischen Sprachen"
+            "semester": "Winter 2025/26",
+            "course": "Introduction to phonetics, phonology and semantics of Slavic languages"
         },
         "entry9": {
             "semester": "",
             "course": "Advanced seminar for BA/MA: Slavic nominal morphosyntax"
         },
         "entry8": {
-            "semester": "WS 2024/25",
+            "semester": "Winter 2024/25",
             "course": "Advanced seminar for BA: Empirical linguistics: web experiments"
         },
         "entry7": {
-            "semester": "SoSe 24",
-            "course": "Introductory seminar: Wort & Satz"
+            "semester": "Summer 2024",
+            "course": "Introduction to morphology and syntax of Slavic languages"
         },
         "entry6": {
-            "semester": "WS 2023/24",
+            "semester": "Winter 2023/24",
             "course": "Advanced seminar for BA: Slavic discourse linguistics"
         },
           "entry5": {
-            "semester": "SoSe 23",
+            "semester": "Summer 2023",
             "course": "Advanced seminar for BA: Slavic Pronouns"
         },
         "entry4": {
-            "semester": "WS 2022/23",
+            "semester": "Winter 2022/23",
             "course": "Advanced seminar for BA: Slavic corpus linguistics"
         },
         "entry3": {
-            "semester": "SoSe 22",
-            "course": "Introductory seminar: Wort & Satz"
+            "semester": "Summer 2022",
+            "course": "Introduction to morphology and syntax of Slavic languages"
         },
         "entry2": {
-            "semester": "WS 2021/22",
+            "semester": "Winter 2021/22",
             "course": "Proseminar: Slavic gender linguistics"
         },
         "entry1": {
-            "semester": "SoSe 21",
-            "course": "Introductory seminar: Morphosyntax of the Slavic languages"
+            "semester": "Summer 2021",
+            "course": "Introduction to morphology and syntax of Slavic languages"
         }
     },
     "network": {
         "heading": "Networking",
+        "corpus": {
+            "heading": "Czech multimodal conversation corpus",
+            "description1": "This multimodal corpus is a collection of video and speech recordings of face-to-face dialogues of native Czech speakers aged from 20-30 years old. A total of 17 one-hour conversations were recorded at the University of Liberec in November 2025. The participants were allowed to talk about any topic they wanted. The data were recorded using a frontal view HD camera and a microphone for each speaker, a third HD camera for a side view, and an additional frontal speaker view using LiveLink (iPhone), respectively.",
+            "description2": "Data cleaning and preparation is currently underway, including automatic speech transcription, PoS-tagging, lemmatization and gesture annotation in ELAN, as well as facial signals such as eye gaze, eye blinks and eyebrows based on the LiveLink data.",
+        },
         "conference": {
             "heading": "Organized conferences & workshops",
             "orga": "Organizor",
