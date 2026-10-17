@@ -1,5 +1,5 @@
 {
-    "title": "Postdoctoral Researcher | Slavic Linguistics",
+    "title": "Digital Transformation & Process Manager",
     "menu": {
         "home": "Home",
         "publications": "Publications",
@@ -11,11 +11,11 @@
     "home": {
         "heading": "About Me",
         "text": {
-            "intro": "I am a linguist specializing in Slavic languages, particularly Russian, Czech, and Polish.",
-            "research": "research interests",
-            "methods": "My research integrates a variety of methods, including corpus and computational linguistics as well as experimental techniques.",
+            "intro": "I currently work as a Digital Transformation & Process Manager. A linguist by training, my background is in Slavic languages, particularly Russian, Czech, and Polish.",
+            "research": "Research interests",
+            "methods": "My academic work relied on a variety of methods, including corpus and computational linguistics as well as experimental techniques.",
             "phd": "I received my PhD in 2023 from the University of Cologne in the field of Slavic Linguistics, with a focus on identity-driven morphosyntactic variation of Russian and Czech nonbinary speakers.",
-            "work": "I am a research fellow in Slavic Linguistics at the Slavic Department as well as in the Key Profile Area “Skills and Structures in Language and Cognition” (SSLAC) at the University of Cologne."
+            "work": "I was a research fellow in Slavic Linguistics at the Slavic Department as well as in the Key Profile Area “Skills and Structures in Language and Cognition” (SSLAC) at the University of Cologne."
         }
     },
     "publications": {
@@ -26,14 +26,19 @@
     },
     "cv": {
         "heading": "Curriculum Vitae",
-        "headingA": "Academic background",
+        "headingA": "Professional Experience",
+        "entrya4": {
+            "date": "since 10/2026",
+            "text": "Digital Transformation & Process Manager",
+            "link": "Q³, University of Cologne"
+        },
         "entrya3": {
-            "date": "since 04/2021",
+            "date": "04/2021–09/2026",
             "text": "(Doctoral) research fellow (50%) in Slavic Linguistics",
             "link": "Slavic Department, University of Cologne"
         },
         "entrya2": {
-            "date": "since 01/2021",
+            "date": "01/2021–09/2026",
             "text": "(Doctoral) research fellow (50%) in the Key Profile Area"
         },
         "entrya1": {

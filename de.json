@@ -1,5 +1,5 @@
 {
-    "title": "Postdoc | Slavische Sprachwissenschaft",
+    "title": "Digitalisierungs- &amp; Workflowmanager",
     "menu": {
         "home": "Home",
         "publications": "Publikationen",
@@ -11,11 +11,11 @@
     "home": {
         "heading": "Über mich",
         "text": {
-            "intro": "Ich bin Linguist und beschäftige mich mit slavischen Sprachen, insbesondere dem Russischen, Tschechischen und Polnischen.",
+            "intro": "Ich bin als Digitalisierungs- & Workflowmanager tätig. Von Haus aus bin ich Linguist mit einem Fokus auf slavische Sprachen, insbesondere dem Russischen, Tschechischen und Polnischen.",
             "research": "Forschungsinteressen",
-            "methods": "Meine Forschung basiert auf verschiedenen Methoden, darunter Korpuslinguistik und Computerlinguistik sowie experimentelle Techniken.",
-            "phd": "Meine Promotion habe ich 2023 an der Universität zu Köln im Fach Slavistik abgeschlossen. Der Schwerpunkt lag auf identitätsbasierter morphosyntaktischen Variationen bei nicht-binären Sprecher:innen des Russischen und Tschechischen.",
-            "work": "Ich bin Wissenschaftlicher Mitarbeiter am Slavischen Institut sowie im Kernprofilbereich “Skills and Structures in Language and Cognition” (SSLAC) an der Universität zu Köln."
+            "methods": "Meine wissenschaftliche Arbeit stützte sich auf verschiedene Methoden, darunter Korpuslinguistik und Computerlinguistik sowie experimentelle Techniken.",
+            "phd": "Meine Promotion habe ich 2023 an der Universität zu Köln im Fach Slavistik abgeschlossen. Der Schwerpunkt lag auf identitätsbasierten morphosyntaktischen Variationen bei nicht-binären Sprecher:innen des Russischen und Tschechischen.",
+            "work": "Ich war als Wissenschaftlicher Mitarbeiter am Slavischen Institut sowie im Kernprofilbereich „Skills and Structures in Language and Cognition“ (SSLAC) an der Universität zu Köln tätig."
         }
     },
     "publications": {
@@ -26,14 +26,19 @@
     },
     "cv": {
         "heading": "Curriculum Vitae",
-        "headingA": "Akademischer Werdegang",
+        "headingA": "Beruflicher Werdegang",
+        "entrya4": {
+            "date": "seit 10/2026",
+            "text": "Digitalisierungs- &amp; Workflowmanager",
+            "link": "Q³, Universität zu Köln"
+        },
         "entrya3": {
-            "date": "seit 04/2021",
+            "date": "04/2021–09/2026",
             "text": "Wissenschaftlicher Mitarbeiter (50%) für Slavische Sprachwissenschaft",
             "link": "Slavisches Institut, Universität zu Köln"
         },
         "entrya2": {
-            "date": "seit 01/2021",
+            "date": "01/2021–09/2026",
             "text": "Wissenschaftlicher Mitarbeiter (50%) im Kernprofilbereich"
         },
         "entrya1": {
